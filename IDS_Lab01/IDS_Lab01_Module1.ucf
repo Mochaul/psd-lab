@@ -1,0 +1,9 @@
+net "a" loc = "N3";
+net "b" loc = "E2";
+
+net "and_" loc = "G1";
+net "nand_" loc = "P4";
+net "nor_" loc = "N4";
+net "or_" loc = "N5";
+net "xnor_" loc = "P6";
+net "xor_" loc = "P7";

@@ -1,0 +1,7 @@
+xst -intstyle ise -ifn "D:/ISEMAAP/IDS_Lab01/IDS_Lab01_Module2.xst" -ofn "D:/ISEMAAP/IDS_Lab01/IDS_Lab01_Module2.syr" 
+xst -intstyle ise -ifn "D:/ISEMAAP/IDS_Lab01/IDS_Lab01_Module2.xst" -ofn "D:/ISEMAAP/IDS_Lab01/IDS_Lab01_Module2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc IDS_Lab01_Module2.ucf -p xc3s100e-cp132-4 IDS_Lab01_Module2.ngc IDS_Lab01_Module2.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o IDS_Lab01_Module2_map.ncd IDS_Lab01_Module2.ngd IDS_Lab01_Module2.pcf 
+par -w -intstyle ise -ol high -t 1 IDS_Lab01_Module2_map.ncd IDS_Lab01_Module2.ncd IDS_Lab01_Module2.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml IDS_Lab01_Module2.twx IDS_Lab01_Module2.ncd -o IDS_Lab01_Module2.twr IDS_Lab01_Module2.pcf -ucf IDS_Lab01_Module2.ucf 
+bitgen -intstyle ise -f IDS_Lab01_Module2.ut IDS_Lab01_Module2.ncd 

@@ -1,0 +1,29 @@
+Command line:
+   PSD_Lab02_Module1_test_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  5754
+
+Fri Sep 30 15:18:26 2016
+
+
+ Elaboration Time: 0.0624 sec
+
+ Current Memory Usage: 665.022 Meg
+
+ Total Signals          : 19
+ Total Nets             : 18
+ Total Signal Drivers   : 10
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 12
+ Total Traceable Variables  : 22
+ Total Scalar Nets and Variables : 102
+Total Line Count : 31
+
+ Total Simulation Time: 0.0624 sec
+
+ Current Memory Usage: 665.022 Meg
+
+Fri Sep 30 15:18:44 2016
+

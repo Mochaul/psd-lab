@@ -1,0 +1,9 @@
+net "A" loc = "B4";
+net "B" loc = "K3";
+net "C" loc = "L3";
+net "D" loc = "P11";
+
+net "W" loc = "P6";
+net "X" loc = "P7";
+net "Y" loc = "M11";
+net "Z" loc = "M5";

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="Xst" num="863" delta="old" >&quot;<arg fmt="%s" index="1">IDS_Lab09.v</arg>&quot; line <arg fmt="%d" index="2">26</arg>: Name conflict (<arg fmt="%s" index="3">&lt;d0&gt; and &lt;D0&gt;, renaming d0 as d0_rnm0</arg>).
+</msg>
+
+<msg type="warning" file="Xst" num="863" delta="old" >&quot;<arg fmt="%s" index="1">IDS_Lab09.v</arg>&quot; line <arg fmt="%d" index="2">27</arg>: Name conflict (<arg fmt="%s" index="3">&lt;d1&gt; and &lt;D1&gt;, renaming d1 as d1_rnm0</arg>).
+</msg>
+
+<msg type="warning" file="Xst" num="863" delta="old" >&quot;<arg fmt="%s" index="1">IDS_Lab09.v</arg>&quot; line <arg fmt="%d" index="2">28</arg>: Name conflict (<arg fmt="%s" index="3">&lt;d2&gt; and &lt;D2&gt;, renaming d2 as d2_rnm0</arg>).
+</msg>
+
+<msg type="warning" file="Xst" num="863" delta="old" >&quot;<arg fmt="%s" index="1">IDS_Lab09.v</arg>&quot; line <arg fmt="%d" index="2">29</arg>: Name conflict (<arg fmt="%s" index="3">&lt;d3&gt; and &lt;D3&gt;, renaming d3 as d3_rnm0</arg>).
+</msg>
+
+<msg type="warning" file="Xst" num="863" delta="old" >&quot;<arg fmt="%s" index="1">IDS_Lab09.v</arg>&quot; line <arg fmt="%d" index="2">30</arg>: Name conflict (<arg fmt="%s" index="3">&lt;d4&gt; and &lt;D4&gt;, renaming d4 as d4_rnm0</arg>).
+</msg>
+
+</messages>
+

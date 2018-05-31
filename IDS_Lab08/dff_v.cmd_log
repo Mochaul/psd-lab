@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "F:/PSD Workspace 2016/IDS_Lab08/dff_v.xst" -ofn "F:/PSD Workspace 2016/IDS_Lab08/dff_v.syr" 

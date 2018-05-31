@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="IDS_Lab04.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="IDS_Lab04_1to2Dec.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="IDS_Lab04_1to2Dec.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="IDS_Lab04_1to2Dec.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="IDS_Lab04_1to2Dec.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="IDS_Lab04_1to2Dec.ngc" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="IDS_Lab04_1to2Dec.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="IDS_Lab04_1to2Dec.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="IDS_Lab04_1to2Dec.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="IDS_Lab04_1to2Dec.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="IDS_Lab04_1to2Dec.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="IDS_Lab04_1to2Dec.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="IDS_Lab04_1to2Dec.ptwx"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="IDS_Lab04_1to2Dec.spl"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="IDS_Lab04_1to2Dec.stx"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="IDS_Lab04_1to2Dec.sym" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="IDS_Lab04_1to2Dec.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="IDS_Lab04_1to2Dec.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="IDS_Lab04_1to2Dec.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="IDS_Lab04_1to2Dec.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="IDS_Lab04_1to2Dec.ut" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="IDS_Lab04_1to2Dec.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="IDS_Lab04_1to2Dec.xst"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="IDS_Lab04_1to2DecEnable.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="IDS_Lab04_1to2DecEnable.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="IDS_Lab04_1to2DecEnable.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="IDS_Lab04_1to2DecEnable.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="IDS_Lab04_1to2DecEnable.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="IDS_Lab04_1to2DecEnable.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="IDS_Lab04_1to2DecEnable.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="IDS_Lab04_1to2DecEnable.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="IDS_Lab04_1to2DecEnable.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="IDS_Lab04_1to2DecEnable.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="IDS_Lab04_1to2DecEnable.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="IDS_Lab04_1to2DecEnable.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="IDS_Lab04_1to2DecEnable.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="IDS_Lab04_1to2DecEnable.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="IDS_Lab04_1to2DecEnable.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="IDS_Lab04_1to2DecEnable.xst"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="IDS_Lab04_1to2DecEnable_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="IDS_Lab04_1to2DecEnable_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="IDS_Lab04_1to2DecEnable_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="IDS_Lab04_1to2DecEnable_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="IDS_Lab04_1to2DecEnable_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="IDS_Lab04_1to2DecEnable_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="IDS_Lab04_1to2DecEnable_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="IDS_Lab04_1to2DecEnable_test_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="IDS_Lab04_1to2DecEnable_test_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="IDS_Lab04_1to2DecEnable_test_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="IDS_Lab04_1to2DecEnable_test_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="IDS_Lab04_1to2DecEnable_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="IDS_Lab04_1to2Dec_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="IDS_Lab04_1to2Dec_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="IDS_Lab04_1to2Dec_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="IDS_Lab04_1to2Dec_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="IDS_Lab04_1to2Dec_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="IDS_Lab04_1to2Dec_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="IDS_Lab04_1to2Dec_map.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="IDS_Lab04_1to2Dec_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="IDS_Lab04_1to2Dec_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="IDS_Lab04_1to2Dec_par.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="IDS_Lab04_1to2Dec_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="IDS_Lab04_1to2Dec_summary.xml"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="IDS_Lab04_1to2Dec_test_isim_beh.exe"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="IDS_Lab04_1to2Dec_test_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="IDS_Lab04_1to2Dec_usage.xml"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="IDS_Lab04_1to2Dec_xst.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="IDS_Lab04_2to4Dec.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="IDS_Lab04_2to4Dec.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="IDS_Lab04_2to4Dec.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="IDS_Lab04_2to4Dec.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="IDS_Lab04_2to4Dec.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="IDS_Lab04_2to4Dec.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="IDS_Lab04_2to4Dec.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="IDS_Lab04_2to4Dec.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="IDS_Lab04_2to4Dec.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="IDS_Lab04_2to4Dec.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="IDS_Lab04_2to4Dec.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="IDS_Lab04_2to4Dec.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="IDS_Lab04_2to4Dec.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="IDS_Lab04_2to4Dec.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="IDS_Lab04_2to4Dec.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="IDS_Lab04_2to4Dec.ut" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="IDS_Lab04_2to4Dec.xst"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="IDS_Lab04_2to4DecEnable.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="IDS_Lab04_2to4DecEnable.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="IDS_Lab04_2to4DecEnable.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="IDS_Lab04_2to4DecEnable.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="IDS_Lab04_2to4DecEnable.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="IDS_Lab04_2to4DecEnable.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="IDS_Lab04_2to4DecEnable.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="IDS_Lab04_2to4DecEnable.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="IDS_Lab04_2to4DecEnable.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="IDS_Lab04_2to4DecEnable.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="IDS_Lab04_2to4DecEnable.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="IDS_Lab04_2to4DecEnable.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="IDS_Lab04_2to4DecEnable.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="IDS_Lab04_2to4DecEnable.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="IDS_Lab04_2to4DecEnable.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="IDS_Lab04_2to4DecEnable.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="IDS_Lab04_2to4DecEnable.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="IDS_Lab04_2to4DecEnable.ut" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="IDS_Lab04_2to4DecEnable.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="IDS_Lab04_2to4DecEnable.xst"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="IDS_Lab04_2to4DecEnable_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="IDS_Lab04_2to4DecEnable_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="IDS_Lab04_2to4DecEnable_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="IDS_Lab04_2to4DecEnable_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="IDS_Lab04_2to4DecEnable_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="IDS_Lab04_2to4DecEnable_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="IDS_Lab04_2to4DecEnable_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="IDS_Lab04_2to4DecEnable_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="IDS_Lab04_2to4DecEnable_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="IDS_Lab04_2to4DecEnable_par.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="IDS_Lab04_2to4DecEnable_xst.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="IDS_Lab04_2to4Dec_beh.prj"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="IDS_Lab04_2to4Dec_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="IDS_Lab04_2to4Dec_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="IDS_Lab04_2to4Dec_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="IDS_Lab04_2to4Dec_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="IDS_Lab04_2to4Dec_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="IDS_Lab04_2to4Dec_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="IDS_Lab04_2to4Dec_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="IDS_Lab04_2to4Dec_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="IDS_Lab04_2to4Dec_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="IDS_Lab04_2to4Dec_summary.html"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="IDS_Lab04_2to4Dec_test_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="IDS_Lab04_2to4Dec_test_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="IDS_Lab04_2to4Dec_test_isim_beh.wdb"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="IDS_Lab04_2to4Dec_test_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="IDS_Lab04_2to4Dec_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="ids_lab04_1to2dec.bgn" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BIT" xil_pn:name="ids_lab04_1to2dec.bit" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_DRC" xil_pn:name="ids_lab04_1to2dec.drc" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="ids_lab04_2to4dec.bgn" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BIT" xil_pn:name="ids_lab04_2to4dec.bit" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_DRC" xil_pn:name="ids_lab04_2to4dec.drc" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="ids_lab04_2to4decenable.bgn" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BIT" xil_pn:name="ids_lab04_2to4decenable.bit" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_DRC" xil_pn:name="ids_lab04_2to4decenable.drc" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="usage_statistics_webtalk.html"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="webtalk.log"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1476347210" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1476347210">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1476329805" xil_pn:in_ck="4028960349336199292" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1476329805">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="IDS_Lab04_1to2DecEnable.v"/>
+      <outfile xil_pn:name="IDS_Lab04_1to2DecEnable_test.v"/>
+      <outfile xil_pn:name="IDS_Lab04_2to4DecEnable.v"/>
+      <outfile xil_pn:name="IDS_Lab04_2to4DecEnable_test.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1476328672" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="2843349682876399744" xil_pn:start_ts="1476328672">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1476328672" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="3989079369380415682" xil_pn:start_ts="1476328672">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1476329809" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-122831442910672401" xil_pn:start_ts="1476329809">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1476329809" xil_pn:in_ck="4028960349336199292" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1476329809">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="IDS_Lab04_1to2DecEnable.v"/>
+      <outfile xil_pn:name="IDS_Lab04_1to2DecEnable_test.v"/>
+      <outfile xil_pn:name="IDS_Lab04_2to4DecEnable.v"/>
+      <outfile xil_pn:name="IDS_Lab04_2to4DecEnable_test.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1476329816" xil_pn:in_ck="4028960349336199292" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-6972508494256116191" xil_pn:start_ts="1476329809">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="IDS_Lab04_1to2DecEnable_test_beh.prj"/>
+      <outfile xil_pn:name="IDS_Lab04_1to2DecEnable_test_isim_beh.exe"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1476329816" xil_pn:in_ck="7373347903881107177" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="244009151137061700" xil_pn:start_ts="1476329816">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="IDS_Lab04_1to2DecEnable_test_isim_beh.wdb"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+    </transform>
+    <transform xil_pn:end_ts="1476328230" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1476328230">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1476329478" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="8323505769800511750" xil_pn:start_ts="1476329478">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1476329478" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-122831442910672401" xil_pn:start_ts="1476329478">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1476329478" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1476329478">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1476329478" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-4694976801594411516" xil_pn:start_ts="1476329478">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1476329478" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="2988080280822507185" xil_pn:start_ts="1476329478">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1476329478" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="3564905873496048057" xil_pn:start_ts="1476329478">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1476329740" xil_pn:in_ck="-6999366714464061825" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="-2460227541189851614" xil_pn:start_ts="1476329730">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="IDS_Lab04_1to2Dec.ngc"/>
+      <outfile xil_pn:name="IDS_Lab04_1to2Dec.ngr"/>
+      <outfile xil_pn:name="IDS_Lab04_1to2DecEnable.ngr"/>
+      <outfile xil_pn:name="IDS_Lab04_2to4DecEnable.lso"/>
+      <outfile xil_pn:name="IDS_Lab04_2to4DecEnable.ngc"/>
+      <outfile xil_pn:name="IDS_Lab04_2to4DecEnable.ngr"/>
+      <outfile xil_pn:name="IDS_Lab04_2to4DecEnable.prj"/>
+      <outfile xil_pn:name="IDS_Lab04_2to4DecEnable.stx"/>
+      <outfile xil_pn:name="IDS_Lab04_2to4DecEnable.syr"/>
+      <outfile xil_pn:name="IDS_Lab04_2to4DecEnable.xst"/>
+      <outfile xil_pn:name="IDS_Lab04_2to4DecEnable_xst.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1476329749" xil_pn:in_ck="3379950223786487920" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-2360871458068027217" xil_pn:start_ts="1476329749">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1476329759" xil_pn:in_ck="6287575723904294600" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-2876486894889993838" xil_pn:start_ts="1476329749">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="IDS_Lab04_2to4DecEnable.bld"/>
+      <outfile xil_pn:name="IDS_Lab04_2to4DecEnable.ngd"/>
+      <outfile xil_pn:name="IDS_Lab04_2to4DecEnable_ngdbuild.xrpt"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1476329769" xil_pn:in_ck="7519460722097176652" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="-1303429204059397298" xil_pn:start_ts="1476329759">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="IDS_Lab04_2to4DecEnable.pcf"/>
+      <outfile xil_pn:name="IDS_Lab04_2to4DecEnable_map.map"/>
+      <outfile xil_pn:name="IDS_Lab04_2to4DecEnable_map.mrp"/>
+      <outfile xil_pn:name="IDS_Lab04_2to4DecEnable_map.ncd"/>
+      <outfile xil_pn:name="IDS_Lab04_2to4DecEnable_map.ngm"/>
+      <outfile xil_pn:name="IDS_Lab04_2to4DecEnable_map.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1476329784" xil_pn:in_ck="-4449183650035609424" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="1934304854298957634" xil_pn:start_ts="1476329769">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="IDS_Lab04_2to4DecEnable.ncd"/>
+      <outfile xil_pn:name="IDS_Lab04_2to4DecEnable.pad"/>
+      <outfile xil_pn:name="IDS_Lab04_2to4DecEnable.par"/>
+      <outfile xil_pn:name="IDS_Lab04_2to4DecEnable.ptwx"/>
+      <outfile xil_pn:name="IDS_Lab04_2to4DecEnable.unroutes"/>
+      <outfile xil_pn:name="IDS_Lab04_2to4DecEnable.xpi"/>
+      <outfile xil_pn:name="IDS_Lab04_2to4DecEnable_pad.csv"/>
+      <outfile xil_pn:name="IDS_Lab04_2to4DecEnable_pad.txt"/>
+      <outfile xil_pn:name="IDS_Lab04_2to4DecEnable_par.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1476329803" xil_pn:in_ck="-1228189505372321652" xil_pn:name="TRANEXT_bitFile_spartan3e" xil_pn:prop_ck="-7817169320884990698" xil_pn:start_ts="1476329790">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="IDS_Lab04_2to4DecEnable.ut"/>
+      <outfile xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+      <outfile xil_pn:name="ids_lab04_2to4decenable.bgn"/>
+      <outfile xil_pn:name="ids_lab04_2to4decenable.bit"/>
+      <outfile xil_pn:name="ids_lab04_2to4decenable.drc"/>
+      <outfile xil_pn:name="usage_statistics_webtalk.html"/>
+      <outfile xil_pn:name="webtalk.log"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1476329784" xil_pn:in_ck="-7515406449686841284" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416186" xil_pn:start_ts="1476329780">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="IDS_Lab04_2to4DecEnable.twr"/>
+      <outfile xil_pn:name="IDS_Lab04_2to4DecEnable.twx"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+    </transform>
+  </transforms>
+
+</generated_project>

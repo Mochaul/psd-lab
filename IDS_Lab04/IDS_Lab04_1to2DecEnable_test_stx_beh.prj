@@ -1,0 +1,3 @@
+verilog isim_temp "IDS_Lab04_1to2DecEnable.v"
+verilog isim_temp "IDS_Lab04_1to2DecEnable_test.v"
+verilog isim_temp "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

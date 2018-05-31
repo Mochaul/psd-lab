@@ -1,0 +1,15 @@
+net "Shift" loc = "N3";
+net "Load" loc = "E2";
+net "Serial_input" loc = "F3";
+net "D0" loc = "G3";
+net "D1" loc = "B4";
+net "D2" loc = "K3";
+net "D3" loc = "L3";
+net "D4" loc = "P11";
+net "Clock" loc = "A7";
+
+net "out0" loc = "N5";
+net "out1" loc = "P6";
+net "out2" loc = "P7";
+net "out3" loc = "M11";
+net "out4" loc = "M5";

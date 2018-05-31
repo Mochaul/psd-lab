@@ -1,0 +1,5 @@
+verilog work "MUX4to1.v"
+verilog work "dff_v.v"
+verilog work "IDS_Lab09.v"
+verilog work "IDS_Lab09_test.v"
+verilog work "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

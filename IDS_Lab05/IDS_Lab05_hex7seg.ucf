@@ -1,0 +1,18 @@
+net "sw[0]" loc = "P11";
+net "sw[1]" loc = "L3";
+net "sw[2]" loc = "K3";
+net "sw[3]" loc = "B4";
+
+net "anode[0]" loc = "K14";
+net "anode[1]" loc = "M13";
+net "anode[2]" loc = "J12";
+net "anode[3]" loc = "F12";
+net "dp" loc = "N13";
+
+net "a_to_g[0]" loc = "M12";
+net "a_to_g[1]" loc = "L13";
+net "a_to_g[2]" loc = "P12";
+net "a_to_g[3]" loc = "N11";
+net "a_to_g[4]" loc = "N14";
+net "a_to_g[5]" loc = "H12";
+net "a_to_g[6]" loc = "L14";

@@ -1,0 +1,11 @@
+xst -intstyle ise -ifn "F:/PSD Workspace 2016/IDS_Lab03/IDS_Lab03.xst" -ofn "F:/PSD Workspace 2016/IDS_Lab03/IDS_Lab03.syr" 
+xst -intstyle ise -ifn "F:/PSD Workspace 2016/IDS_Lab03/IDS_Lab03.xst" -ofn "F:/PSD Workspace 2016/IDS_Lab03/IDS_Lab03.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc IDS_Lab03.ucf -p xc3s100e-cp132-4 "IDS_Lab03.ngc" IDS_Lab03.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc IDS_Lab03.ucf -p xc3s100e-cp132-4 "IDS_Lab03.ngc" IDS_Lab03.ngd  
+xst -intstyle ise -ifn "F:/PSD Workspace 2016/IDS_Lab03/IDS_Lab03.xst" -ofn "F:/PSD Workspace 2016/IDS_Lab03/IDS_Lab03.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc IDS_Lab03.ucf -p xc3s100e-cp132-4 "IDS_Lab03.ngc" IDS_Lab03.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc IDS_Lab03.ucf -p xc3s100e-cp132-4 "IDS_Lab03.ngc" IDS_Lab03.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o IDS_Lab03_map.ncd IDS_Lab03.ngd IDS_Lab03.pcf 
+par -w -intstyle ise -ol high -t 1 IDS_Lab03_map.ncd IDS_Lab03.ncd IDS_Lab03.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml IDS_Lab03.twx IDS_Lab03.ncd -o IDS_Lab03.twr IDS_Lab03.pcf -ucf IDS_Lab03.ucf 
+bitgen -intstyle ise -f IDS_Lab03.ut IDS_Lab03.ncd 

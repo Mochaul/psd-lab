@@ -1,0 +1,26 @@
+xst -intstyle ise -ifn "F:/PSD Workspace 2016/IDS_Lab09/IDS_Lab09.xst" -ofn "F:/PSD Workspace 2016/IDS_Lab09/IDS_Lab09.syr" 
+xst -intstyle ise -ifn "F:/PSD Workspace 2016/IDS_Lab09/IDS_Lab09.xst" -ofn "F:/PSD Workspace 2016/IDS_Lab09/IDS_Lab09.syr" 
+xst -intstyle ise -ifn "F:/PSD Workspace 2016/IDS_Lab09/IDS_Lab09.xst" -ofn "F:/PSD Workspace 2016/IDS_Lab09/IDS_Lab09.syr" 
+xst -intstyle ise -ifn "F:/PSD Workspace 2016/IDS_Lab09/IDS_Lab09.xst" -ofn "F:/PSD Workspace 2016/IDS_Lab09/IDS_Lab09.syr" 
+xst -intstyle ise -ifn "F:/PSD Workspace 2016/IDS_Lab09/IDS_Lab09.xst" -ofn "F:/PSD Workspace 2016/IDS_Lab09/IDS_Lab09.syr" 
+xst -intstyle ise -ifn "F:/PSD Workspace 2016/IDS_Lab09/IDS_Lab09.xst" -ofn "F:/PSD Workspace 2016/IDS_Lab09/IDS_Lab09.syr" 
+xst -intstyle ise -ifn "F:/PSD Workspace 2016/IDS_Lab09/IDS_Lab09.xst" -ofn "F:/PSD Workspace 2016/IDS_Lab09/IDS_Lab09.syr" 
+xst -intstyle ise -ifn "F:/PSD Workspace 2016/IDS_Lab09/IDS_Lab09.xst" -ofn "F:/PSD Workspace 2016/IDS_Lab09/IDS_Lab09.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc IDS_Lab09.ucf -p xc3s100e-cp132-4 "IDS_Lab09.ngc" IDS_Lab09.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o IDS_Lab09_map.ncd IDS_Lab09.ngd IDS_Lab09.pcf 
+par -w -intstyle ise -ol high -t 1 IDS_Lab09_map.ncd IDS_Lab09.ncd IDS_Lab09.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml IDS_Lab09.twx IDS_Lab09.ncd -o IDS_Lab09.twr IDS_Lab09.pcf -ucf IDS_Lab09.ucf 
+bitgen -intstyle ise -f IDS_Lab09.ut IDS_Lab09.ncd 
+xst -intstyle ise -ifn "F:/PSD Workspace 2016/IDS_Lab09/IDS_Lab09.xst" -ofn "F:/PSD Workspace 2016/IDS_Lab09/IDS_Lab09.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc IDS_Lab09.ucf -p xc3s100e-cp132-4 "IDS_Lab09.ngc" IDS_Lab09.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o IDS_Lab09_map.ncd IDS_Lab09.ngd IDS_Lab09.pcf 
+par -w -intstyle ise -ol high -t 1 IDS_Lab09_map.ncd IDS_Lab09.ncd IDS_Lab09.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml IDS_Lab09.twx IDS_Lab09.ncd -o IDS_Lab09.twr IDS_Lab09.pcf -ucf IDS_Lab09.ucf 
+bitgen -intstyle ise -f IDS_Lab09.ut IDS_Lab09.ncd 
+bitgen -intstyle ise -f IDS_Lab09.ut IDS_Lab09.ncd 
+xst -intstyle ise -ifn "F:/PSD Workspace 2016/IDS_Lab09/IDS_Lab09.xst" -ofn "F:/PSD Workspace 2016/IDS_Lab09/IDS_Lab09.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc IDS_Lab09.ucf -p xc3s100e-cp132-4 "IDS_Lab09.ngc" IDS_Lab09.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o IDS_Lab09_map.ncd IDS_Lab09.ngd IDS_Lab09.pcf 
+par -w -intstyle ise -ol high -t 1 IDS_Lab09_map.ncd IDS_Lab09.ncd IDS_Lab09.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml IDS_Lab09.twx IDS_Lab09.ncd -o IDS_Lab09.twr IDS_Lab09.pcf -ucf IDS_Lab09.ucf 
+bitgen -intstyle ise -f IDS_Lab09.ut IDS_Lab09.ncd 

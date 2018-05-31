@@ -1,0 +1,120 @@
+Release 14.7 ngdbuild P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Command Line: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\ngdbuild.exe
+-intstyle ise -dd _ngo -nt timestamp -uc IDS_Lab02_Module1.ucf -uc
+IDS_Lab02_Bonus.ucf -p xc3s100e-cp132-4 IDS_Lab02_Module1.ngc
+IDS_Lab02_Module1.ngd
+
+Reading NGO file "F:/PSD_Lab02/IDS_Lab02/IDS_Lab02_Module1.ngc" ...
+Gathering constraint information from source properties...
+Done.
+
+Annotating constraints to design from ucf file "IDS_Lab02_Module1.ucf" ...
+Annotating constraints to design from ucf file "IDS_Lab02_Bonus.ucf" ...
+Resolving constraint associations...
+Checking Constraint Associations...
+ERROR:ConstraintSystem:59 - Constraint <net "A" loc = "N3";>
+   [IDS_Lab02_Bonus.ucf(1)]: NET "A" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<net "A" loc = "N3";> [IDS_Lab02_Bonus.ucf(1)]' could not be found and so
+   the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <net "B" loc = "E2";>
+   [IDS_Lab02_Bonus.ucf(2)]: NET "B" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<net "B" loc = "E2";> [IDS_Lab02_Bonus.ucf(2)]' could not be found and so
+   the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <net "C" loc = "F3";>
+   [IDS_Lab02_Bonus.ucf(3)]: NET "C" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<net "C" loc = "F3";> [IDS_Lab02_Bonus.ucf(3)]' could not be found and so
+   the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <net "Pin" loc = "B4";>
+   [IDS_Lab02_Bonus.ucf(4)]: NET "Pin" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<net "Pin" loc = "B4";> [IDS_Lab02_Bonus.ucf(4)]' could not be found and so
+   the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <net "Ax" loc = "G1";>
+   [IDS_Lab02_Bonus.ucf(9)]: NET "Ax" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<net "Ax" loc = "G1";> [IDS_Lab02_Bonus.ucf(9)]' could not be found and so
+   the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <net "Bx" loc = "P4";>
+   [IDS_Lab02_Bonus.ucf(10)]: NET "Bx" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<net "Bx" loc = "P4";> [IDS_Lab02_Bonus.ucf(10)]' could not be found and so
+   the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <net "Cx" loc = "N4";>
+   [IDS_Lab02_Bonus.ucf(11)]: NET "Cx" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<net "Cx" loc = "N4";> [IDS_Lab02_Bonus.ucf(11)]' could not be found and so
+   the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <net "Pout" loc = "N5";>
+   [IDS_Lab02_Bonus.ucf(12)]: NET "Pout" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<net "Pout" loc = "N5";> [IDS_Lab02_Bonus.ucf(12)]' could not be found and
+   so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <net "E" loc = "M5";>
+   [IDS_Lab02_Bonus.ucf(13)]: NET "E" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<net "E" loc = "M5";> [IDS_Lab02_Bonus.ucf(13)]' could not be found and so
+   the Locate constraint will be removed.
+
+Done...
+
+Checking expanded design ...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     9
+  Number of warnings:   9
+
+Total memory usage is 153632 kilobytes
+
+Total REAL time to NGDBUILD completion:  5 sec
+Total CPU time to NGDBUILD completion:   3 sec
+
+One or more errors were found during NGDBUILD.  No NGD file will be written.
+
+Writing NGDBUILD log file "IDS_Lab02_Module1.bld"...

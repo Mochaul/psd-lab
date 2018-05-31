@@ -1,0 +1,22 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Fri Dec 02 08:51:43 2016
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "out0" LOCATE = SITE "N5" LEVEL 1;
+COMP "out1" LOCATE = SITE "P6" LEVEL 1;
+COMP "out2" LOCATE = SITE "P7" LEVEL 1;
+COMP "out3" LOCATE = SITE "M11" LEVEL 1;
+COMP "out4" LOCATE = SITE "M5" LEVEL 1;
+COMP "Load" LOCATE = SITE "E2" LEVEL 1;
+COMP "Clock" LOCATE = SITE "A7" LEVEL 1;
+COMP "Shift" LOCATE = SITE "N3" LEVEL 1;
+COMP "Serial_input" LOCATE = SITE "F3" LEVEL 1;
+COMP "D0" LOCATE = SITE "G3" LEVEL 1;
+COMP "D1" LOCATE = SITE "B4" LEVEL 1;
+COMP "D2" LOCATE = SITE "K3" LEVEL 1;
+COMP "D3" LOCATE = SITE "L3" LEVEL 1;
+COMP "D4" LOCATE = SITE "P11" LEVEL 1;
+NET "Clock_BUFGP/IBUFG" BEL "Clock_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+SCHEMATIC END;
+

@@ -1,0 +1,5 @@
+net "A" loc = "P11";
+net "E" loc = "L3";
+
+net "D0" loc = "M5";
+net "D1" loc = "M11";

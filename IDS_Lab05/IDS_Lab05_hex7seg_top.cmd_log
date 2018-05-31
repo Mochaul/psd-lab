@@ -1,0 +1,12 @@
+xst -intstyle ise -ifn "F:/PSD Workspace 2016/Lab5/IDS_Lab05/IDS_Lab05_hex7seg_top.xst" -ofn "F:/PSD Workspace 2016/Lab5/IDS_Lab05/IDS_Lab05_hex7seg_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc IDS_Lab05_hex7seg.ucf -p xc3s100e-cp132-4 "IDS_Lab05_hex7seg_top.ngc" IDS_Lab05_hex7seg_top.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o IDS_Lab05_hex7seg_top_map.ncd IDS_Lab05_hex7seg_top.ngd IDS_Lab05_hex7seg_top.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc IDS_Lab05_hex7seg.ucf -p xc3s100e-cp132-4 "IDS_Lab05_hex7seg_top.ngc" IDS_Lab05_hex7seg_top.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o IDS_Lab05_hex7seg_top_map.ncd IDS_Lab05_hex7seg_top.ngd IDS_Lab05_hex7seg_top.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc IDS_Lab05_hex7seg.ucf -p xc3s100e-cp132-4 "IDS_Lab05_hex7seg_top.ngc" IDS_Lab05_hex7seg_top.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o IDS_Lab05_hex7seg_top_map.ncd IDS_Lab05_hex7seg_top.ngd IDS_Lab05_hex7seg_top.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc IDS_Lab05_hex7seg.ucf -p xc3s100e-cp132-4 "IDS_Lab05_hex7seg_top.ngc" IDS_Lab05_hex7seg_top.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o IDS_Lab05_hex7seg_top_map.ncd IDS_Lab05_hex7seg_top.ngd IDS_Lab05_hex7seg_top.pcf 
+par -w -intstyle ise -ol high -t 1 IDS_Lab05_hex7seg_top_map.ncd IDS_Lab05_hex7seg_top.ncd IDS_Lab05_hex7seg_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml IDS_Lab05_hex7seg_top.twx IDS_Lab05_hex7seg_top.ncd -o IDS_Lab05_hex7seg_top.twr IDS_Lab05_hex7seg_top.pcf -ucf IDS_Lab05_hex7seg.ucf 
+bitgen -intstyle ise -f IDS_Lab05_hex7seg_top.ut IDS_Lab05_hex7seg_top.ncd 

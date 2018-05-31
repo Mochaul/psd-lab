@@ -1,0 +1,20 @@
+net"RESET" loc = "A7";
+net"CLK" loc = "M4";
+
+net"a_to_g[6]" loc = "L14";
+net"a_to_g[5]" loc = "H12";
+net"a_to_g[4]" loc = "N14";
+net"a_to_g[3]" loc = "N11";
+net"a_to_g[2]" loc = "P12";
+net"a_to_g[1]" loc = "L13";
+net"a_to_g[0]" loc = "M12";
+
+net"anode[3]" loc = "F12";
+net"anode[2]" loc = "J12";
+net"anode[1]" loc = "M13";
+net"anode[0]" loc = "K14";
+
+net"dp" loc = "N13";
+
+net"X" loc = "P11";
+net"Y" loc = "M5";

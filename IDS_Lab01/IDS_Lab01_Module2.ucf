@@ -1,0 +1,4 @@
+net "c" loc = "N3";
+net "d" loc = "E2";
+
+net "led_" loc = "G1";

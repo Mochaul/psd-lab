@@ -1,0 +1,13 @@
+xst -intstyle ise -ifn "F:/PSD_Lab0/PSD_Lab0.xst" -ofn "F:/PSD_Lab0/PSD_Lab0.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 PSD_Lab0.ngc PSD_Lab0.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o PSD_Lab0_map.ncd PSD_Lab0.ngd PSD_Lab0.pcf 
+par -w -intstyle ise -ol high -t 1 PSD_Lab0_map.ncd PSD_Lab0.ncd PSD_Lab0.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PSD_Lab0.twx PSD_Lab0.ncd -o PSD_Lab0.twr PSD_Lab0.pcf 
+bitgen -intstyle ise -f PSD_Lab0.ut PSD_Lab0.ncd 
+bitgen -intstyle ise -f PSD_Lab0.ut PSD_Lab0.ncd 
+xst -intstyle ise -ifn "F:/PSD_Lab0/PSD_Lab0.xst" -ofn "F:/PSD_Lab0/PSD_Lab0.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PSD_Lab0.ucf -p xc3s100e-cp132-4 PSD_Lab0.ngc PSD_Lab0.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o PSD_Lab0_map.ncd PSD_Lab0.ngd PSD_Lab0.pcf 
+par -w -intstyle ise -ol high -t 1 PSD_Lab0_map.ncd PSD_Lab0.ncd PSD_Lab0.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PSD_Lab0.twx PSD_Lab0.ncd -o PSD_Lab0.twr PSD_Lab0.pcf -ucf PSD_Lab0.ucf 
+bitgen -intstyle ise -f PSD_Lab0.ut PSD_Lab0.ncd 

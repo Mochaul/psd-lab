@@ -1,0 +1,27 @@
+xst -intstyle ise -ifn "D:/MAAP/IDS_Lab07/IDS_Lab07.xst" -ofn "D:/MAAP/IDS_Lab07/IDS_Lab07.syr" 
+xst -intstyle ise -ifn "D:/MAAP/IDS_Lab07/IDS_Lab07.xst" -ofn "D:/MAAP/IDS_Lab07/IDS_Lab07.syr" 
+xst -intstyle ise -ifn "D:/MAAP/IDS_Lab07/IDS_Lab07.xst" -ofn "D:/MAAP/IDS_Lab07/IDS_Lab07.syr" 
+xst -intstyle ise -ifn "D:/MAAP/IDS_Lab07/IDS_Lab07.xst" -ofn "D:/MAAP/IDS_Lab07/IDS_Lab07.syr" 
+xst -intstyle ise -ifn "D:/MAAP/IDS_Lab07/IDS_Lab07.xst" -ofn "D:/MAAP/IDS_Lab07/IDS_Lab07.syr" 
+xst -intstyle ise -ifn "D:/MAAP/IDS_Lab07/IDS_Lab07.xst" -ofn "D:/MAAP/IDS_Lab07/IDS_Lab07.syr" 
+xst -intstyle ise -ifn "D:/MAAP/IDS_Lab07/IDS_Lab07.xst" -ofn "D:/MAAP/IDS_Lab07/IDS_Lab07.syr" 
+xst -intstyle ise -ifn "D:/MAAP/IDS_Lab07/IDS_Lab07.xst" -ofn "D:/MAAP/IDS_Lab07/IDS_Lab07.syr" 
+xst -intstyle ise -ifn "D:/MAAP/IDS_Lab07/IDS_Lab07.xst" -ofn "D:/MAAP/IDS_Lab07/IDS_Lab07.syr" 
+xst -intstyle ise -ifn "D:/MAAP/IDS_Lab07/IDS_Lab07.xst" -ofn "D:/MAAP/IDS_Lab07/IDS_Lab07.syr" 
+xst -intstyle ise -ifn "D:/MAAP/IDS_Lab07/IDS_Lab07.xst" -ofn "D:/MAAP/IDS_Lab07/IDS_Lab07.syr" 
+xst -intstyle ise -ifn "D:/MAAP/IDS_Lab07/IDS_Lab07.xst" -ofn "D:/MAAP/IDS_Lab07/IDS_Lab07.syr" 
+xst -intstyle ise -ifn "D:/MAAP/IDS_Lab07/IDS_Lab07.xst" -ofn "D:/MAAP/IDS_Lab07/IDS_Lab07.syr" 
+xst -intstyle ise -ifn "D:/MAAP/IDS_Lab07/IDS_Lab07.xst" -ofn "D:/MAAP/IDS_Lab07/IDS_Lab07.syr" 
+xst -intstyle ise -ifn "D:/MAAP/IDS_Lab07/IDS_Lab07.xst" -ofn "D:/MAAP/IDS_Lab07/IDS_Lab07.syr" 
+xst -intstyle ise -ifn "D:/MAAP/IDS_Lab07/IDS_Lab07.xst" -ofn "D:/MAAP/IDS_Lab07/IDS_Lab07.syr" 
+xst -intstyle ise -ifn "D:/MAAP/IDS_Lab07/IDS_Lab07.xst" -ofn "D:/MAAP/IDS_Lab07/IDS_Lab07.syr" 
+xst -intstyle ise -ifn "D:/MAAP/IDS_Lab07/IDS_Lab07.xst" -ofn "D:/MAAP/IDS_Lab07/IDS_Lab07.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc IDS_Lab07.ucf -p xc3s100e-cp132-4 IDS_Lab07.ngc IDS_Lab07.ngd  
+xst -intstyle ise -ifn "D:/MAAP/IDS_Lab07/IDS_Lab07.xst" -ofn "D:/MAAP/IDS_Lab07/IDS_Lab07.syr" 
+xst -intstyle ise -ifn "D:/MAAP/IDS_Lab07/IDS_Lab07.xst" -ofn "D:/MAAP/IDS_Lab07/IDS_Lab07.syr" 
+xst -intstyle ise -ifn "D:/MAAP/IDS_Lab07/IDS_Lab07.xst" -ofn "D:/MAAP/IDS_Lab07/IDS_Lab07.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc IDS_Lab07.ucf -p xc3s100e-cp132-4 IDS_Lab07.ngc IDS_Lab07.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o IDS_Lab07_map.ncd IDS_Lab07.ngd IDS_Lab07.pcf 
+par -w -intstyle ise -ol high -t 1 IDS_Lab07_map.ncd IDS_Lab07.ncd IDS_Lab07.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml IDS_Lab07.twx IDS_Lab07.ncd -o IDS_Lab07.twr IDS_Lab07.pcf -ucf IDS_Lab07.ucf 
+bitgen -intstyle ise -f IDS_Lab07.ut IDS_Lab07.ncd 

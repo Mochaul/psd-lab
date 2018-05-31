@@ -1,0 +1,29 @@
+Command line:
+   IDS_Lab04_1to2DecEnable_test_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  35068
+
+Thu Oct 13 10:37:00 2016
+
+
+ Elaboration Time: 0.0468 sec
+
+ Current Memory Usage: 668.414 Meg
+
+ Total Signals          : 19
+ Total Nets             : 17
+ Total Signal Drivers   : 9
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 11
+ Total Traceable Variables  : 20
+ Total Scalar Nets and Variables : 99
+Total Line Count : 21
+
+ Total Simulation Time: 0.0468 sec
+
+ Current Memory Usage: 982.987 Meg
+
+Thu Oct 13 10:37:47 2016
+

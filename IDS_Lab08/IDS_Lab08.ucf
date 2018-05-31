@@ -1,0 +1,3 @@
+net "X" loc = "N3";	
+net "CLK" loc = "M4";
+net "Y" loc = "G1";

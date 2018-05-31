@@ -1,0 +1,13 @@
+net "A" loc = "N3";
+net "B" loc = "E2";
+net "C" loc = "F3";
+net "Pin" loc = "B4";
+net "X" loc = "K3";
+net "Y" loc = "L3";
+net "Z" loc = "P11";
+
+net "Ax" loc = "G1";
+net "Bx" loc = "P4";
+net "Cx" loc = "N4";
+net "Pout" loc = "N5";
+net "E" loc = "M5";

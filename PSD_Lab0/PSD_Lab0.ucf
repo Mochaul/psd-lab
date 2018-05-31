@@ -1,0 +1,9 @@
+net "A" loc = "N3";
+net "B" loc = "E2";
+net "C" loc = "F3";
+net "D" loc = "G3";
+
+net "G4" loc = "G1";
+net "G3" loc = "P4";
+net "G2" loc = "N4";
+net "G1" loc = "N5";

@@ -1,0 +1,10 @@
+Command line:
+   PSD_Lab0_test_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  65281
+
+Fri Sep 16 14:50:16 2016
+
+
+ Elaboration Time: 0.0312 sec

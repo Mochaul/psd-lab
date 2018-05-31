@@ -1,0 +1,9 @@
+[Inputs]
+A
+[Outputs]
+D0
+D1
+[BiDir]
+[ATTRIBUTES]
+VeriModel IDS_Lab04_1to2Dec
+

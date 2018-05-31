@@ -1,0 +1,21 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o F:/PSD Workspace 2016/IDS_Lab06/IDS_Lab06_isim_beh.exe -prj F:/PSD Workspace 2016/IDS_Lab06/IDS_Lab06_beh.prj work.IDS_Lab06 work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 2
+Turning on mult-threading, number of parallel sub-compilation jobs: 4 
+Determining compilation order of HDL files
+Analyzing Verilog file "F:/PSD Workspace 2016/IDS_Lab06/IDS_Lab05_hex7seg.v" into library work
+Analyzing Verilog file "F:/PSD Workspace 2016/IDS_Lab06/dff_v.v" into library work
+Analyzing Verilog file "F:/PSD Workspace 2016/IDS_Lab06/IDS_Lab06.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module IDS_Lab05_hex7seg
+Compiling module dff_v
+Compiling module IDS_Lab06
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 4 Verilog Units
+Built simulation executable F:/PSD Workspace 2016/IDS_Lab06/IDS_Lab06_isim_beh.exe
+Fuse Memory Usage: 28772 KB
+Fuse CPU Usage: 748 ms

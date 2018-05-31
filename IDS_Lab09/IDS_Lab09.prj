@@ -1,0 +1,3 @@
+verilog work "MUX4to1.v"
+verilog work "dff_v.v"
+verilog work "IDS_Lab09.v"

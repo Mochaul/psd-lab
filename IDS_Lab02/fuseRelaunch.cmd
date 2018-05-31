@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "F:/PSD_Lab02/IDS_Lab02/PSD_Lab02_Module1_test_isim_beh.exe" -prj "F:/PSD_Lab02/IDS_Lab02/PSD_Lab02_Module1_test_beh.prj" "work.PSD_Lab02_Module1_test" "work.glbl" 

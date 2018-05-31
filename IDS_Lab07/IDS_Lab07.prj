@@ -1,0 +1,4 @@
+verilog work "dff_v.v"
+verilog work "jk_v.v"
+verilog work "IDS_Lab05_hex7seg.v"
+verilog work "IDS_Lab07.v"
